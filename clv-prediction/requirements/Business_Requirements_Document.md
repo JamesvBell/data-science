@@ -47,9 +47,9 @@ The goal is to help Sales, Marketing, and Customer Success identify:
 
 ## 5. Modeling Approach
 
-- **Step 1:** Calculate proxy CLV = ACV × Tenure (months ÷ 12)
-- **Step 2:** Define `high_clv_flag` as top 20% of CLV values
-- **Step 3:** Train a **CatBoostClassifier** on all customers to predict `high_clv_flag`
+- Calculate proxy CLV = ACV × Tenure (months ÷ 12)
+- Define `high_clv_flag` as top 20% of CLV values
+- Train a **CatBoostClassifier** on all customers to predict `high_clv_flag`
 - Use **Stratified K-Fold Cross-Validation** with **early stopping** to avoid overfitting
 - Apply **SHAP** to understand global and local drivers
 - Segment output into **deciles** (1 = lowest, 10 = highest predicted CLV)
