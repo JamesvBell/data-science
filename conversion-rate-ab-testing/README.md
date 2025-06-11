@@ -67,18 +67,6 @@ conversion-rate-ab-testing/
 │   └── conversation-rate-ab-testing_brief.md
 └── requirements.txt               # Python dependencies
 
-## Quick Start
-
-**Want to explore the analysis?**
-
-```bash
-# Clone and setup
-git clone [your-repo]
-cd conversion-rate-ab-testing
-pip install -r requirements.txt
-
-# Open the analysis
-jupyter notebook notebooks/conversions-rate-ab-testing.ipynb
 
 Just want to see results? Check out the Business Requirements Document for executive summary.
 Portfolio Highlights
@@ -89,12 +77,10 @@ Business Analytics: ROI analysis, stakeholder communication, decision frameworks
 Statistical Analysis: Hypothesis testing, multiple comparisons, effect size calculation
 Project Management: Requirements gathering, risk assessment, implementation planning
 
-Perfect for interviews at: E-commerce companies, SaaS platforms, fintech, any company running experiments
-Contact
-Jame Bell 
-Email: [jamesvbell@gmail.com]
-LinkedIn: [LinkedIn Profile]
-Portfolio: [Portfolio Website]
+Perfect for interviews contact
+James Bell 
+Email: jamesvbell@gmail.com
+LinkedIn: (https://www.linkedin.com/in/james-bell-finance/)
 "Turning statistical insights into business impact"
 
 
