@@ -1,0 +1,20 @@
+#venv / tooling
+.venv/
+.pytest_cache/
+ruff_cache/
+_pycache_?
+
+#OS/editor junk
+.DS_Store
+*.swp
+*.swo
+
+# Local data & outputs (added later)
+data/
+out/
+reports/
+
+#Python build
+dist/
+build/
+*.egg-info
