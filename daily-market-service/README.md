@@ -1,6 +1,7 @@
 # Daily Market Service
+Daily Market Service is a FastAPI application that fetches live market data, computes transparent metrics in pandas, and uses an LLM for concise narrative summaries. It exposes health checks, JSON endpoints, and a daily HTML report for quick market insights.
 
-A lightweight market “note generator” for learning and demos.  
+This is a lightweight market “note generator” for learning and demos.  
 It pulls prices with [yfinance](https://pypi.org/project/yfinance/), computes financial metrics with pandas, applies a transparent Buy/Hold/Sell framework, and (optionally) uses an LLM to add concise narrative summaries. Exposes JSON endpoints and a clean HTML report via FastAPI.
 
 > ⚠️ Educational project only. Not investment advice.
