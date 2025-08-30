@@ -12,7 +12,7 @@ _pycache_?
 # Local data & outputs (added later)
 data/
 out/
-reports/
+
 
 #Python build
 dist/
