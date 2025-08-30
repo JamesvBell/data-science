@@ -1,4 +1,4 @@
-# Daily Market Bot
+# Daily Market Service
 
 A lightweight market “note generator” for learning and demos.  
 It pulls prices with [yfinance](https://pypi.org/project/yfinance/), computes financial metrics with pandas, applies a transparent Buy/Hold/Sell framework, and (optionally) uses an LLM to add concise narrative summaries. Exposes JSON endpoints and a clean HTML report via FastAPI.
